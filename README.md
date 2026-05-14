@@ -38,17 +38,6 @@ Address: Near Bahi Jan sweets and bakers dewar stop POF havelian cant
 
 Contact: 03705126500
 
-🛠️ How to Deploy
-Fork/Clone the repository to your GitHub account.
-
-Ensure index.html, style.css, and script.js are in the root directory.
-
-Go to Settings > Pages in your GitHub repository.
-
-Select the main branch as the source and click Save.
-
-Your site will be live at [https://yourusername.github.io/repository-name/](https://yourusername.github.io/repository-name/).
-
 👨‍💻 Developed By
 hellofromanas
 
