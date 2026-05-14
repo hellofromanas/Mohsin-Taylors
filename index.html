@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohsin Taylors | Havelian Cantt</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">Mohsin Taylors</div>
+<ul id="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#how-it-works">How it Works</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="javascript:void(0)" onclick="openBookingAlert()">Visit Us</a></li>
+</ul>
+</nav>
+</header>
+<section id="home" class="hero">
+<div class="hero-content">
+<h1 class="urdu-text">آپ کا لباس، ہماری پہچان</h1>
+<p>Premium Bespoke Tailoring in Havelian Cantt</p>
+<button class="btn-main pulse" onclick="openBookingAlert()">BOOK AN APPOINTMENT</button>
+</div>
+</section>
+<section id="how-it-works">
+<h2 class="section-title">How it Works</h2>
+<div class="process-container">
+<div class="process-step" onclick="openBookingAlert()" style="cursor:pointer">
+<div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+<h3>Contact Us</h3>
+<p>Click here to get our contact details immediately.</p>
+</div>
+<div class="process-step">
+<div class="icon-circle"><i class="fas fa-cut"></i></div>
+<h3>Provide Material</h3>
+<p>Hand over your unstitched fabric & measurements.</p>
+</div>
+<div class="process-step">
+<div class="icon-circle"><i class="fas fa-magic"></i></div>
+<h3>Perfect Stitch</h3>
+<p>We craft your suit to absolute perfection.</p>
+</div>
+</div>
+</section>
+<section id="services">
+<h2 class="section-title">Stitching Services</h2>
+<div class="service-grid" id="service-menu"></div>
+</section>
+<div id="bookingModal" class="modal-overlay">
+<div class="modal-card">
+<button class="close-btn" onclick="closeBookingAlert()">&times;</button>
+<div class="modal-header">
+<i class="fas fa-cut needle-icon"></i>
+<h2 class="urdu-text">تشریف لائیں!</h2>
+<h3>Mohsin Taylors</h3>
+</div>
+<div class="modal-body">
+<div class="info-item">
+<i class="fas fa-phone-alt"></i>
+<p><strong>Call Now:</strong><br><a href="tel:03705126500">03705126500</a></p>
+</div>
+<div class="info-item">
+<i class="fas fa-map-marker-alt"></i>
+<p><strong>Address:</strong><br>Near Bahi Jan sweets and bakers dewar stop POF havelian cant</p>
+</div>
+</div>
+<button class="btn-main" onclick="closeBookingAlert()">I'm Coming!</button>
+</div>
+</div>
+<footer>
+<div class="footer-grid">
+<div class="footer-info">
+<h3>Mohsin Taylors</h3>
+<p>Premium Quality Tailoring</p>
+</div>
+<div class="footer-links">
+<p>Made with ❤️ by <a href="https://github.com/hellofromanas" target="_blank">hellofromanas</a></p>
+</div>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
